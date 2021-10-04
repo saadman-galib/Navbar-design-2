@@ -26,6 +26,7 @@
 .navbar h2{
     display: inline-block;
 	font-size: 2rem;
+	cursor: pointer;
 }
 
 // .navbar ul li{
@@ -40,8 +41,19 @@
 	float: left;
 	display: inline-block;
 	font-size: 1.4rem;
+	letter-spacing: 1.5PX;
+	cursor: pointer;
+	transition: 0.3s color ease-in;
+}
+
+.navbar ul li:hover{
+	color: rgba(255, 255, 255, 0.781);
 }
 
 .navbar ul li:not(:last-child){
-	margin-right: 20px;
+	margin-right: 2REM;
+}
+
+.navbar ul li:last-child{
+	margin-right: 3rem;
 }
