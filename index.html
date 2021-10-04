@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style/style.css">
 	<title>Navbar design</title>
 </head>
@@ -11,15 +12,20 @@
 	<div class="main-container">
 		<div class="navbar">
 			<h2>NavBar Design</h2>
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Info</li>
-				<li>Services</li>
-				<li>Contact</li>
-			</ul>
+			<i class="fas fa-bars nav-btn"></i>
+			<div class="nav-list-container" style="left: -900px;">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Info</li>
+					<li>Services</li>
+					<li>Contact</li>
+				</ul>
+			</div>
 		</div>
 
 	</div>	
+
+	<script src="./script/main.js"></script>
 </body>
 </html>
