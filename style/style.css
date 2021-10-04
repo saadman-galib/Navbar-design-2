@@ -1,5 +1,23 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: #73A6AD;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #9B97B2;
+}
+
+.navbar h2 {
+  display: inline-block;
+}
+
+.navbar ul li {
+  display: inline-block;
 }
