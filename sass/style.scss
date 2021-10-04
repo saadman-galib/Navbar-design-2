@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -8,16 +10,38 @@
 	background-color: #73A6AD;
 	width: 100vw;
 	height: 100vh;
+	font-family: 'Red Hat Display', sans-serif;
 }
 
 .navbar{
 	background-color: #9B97B2;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	
+	justify-content: space-between;
+	align-items: center;
 }
 
 .navbar h2{
     display: inline-block;
+	font-size: 2rem;
+}
+
+// .navbar ul li{
+    
+// }
+
+.navbar ul{
+	float: right;
 }
 
 .navbar ul li{
-    display: inline-block;
+	float: left;
+	display: inline-block;
+	font-size: 1.4rem;
+}
+
+.navbar ul li:not(:last-child){
+	margin-right: 20px;
 }
