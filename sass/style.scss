@@ -38,9 +38,9 @@ $color-bg: #dcdde1;
 .navbar ul li{
 	display: inline-block;
 	font-size: 1.4rem;
-	letter-spacing: 1.5PX;
+	letter-spacing: 1.5px;
 	cursor: pointer;
-	transition: 0.3s color ease-in;
+	transition: 0.5s color ease-in;
 }
 
 .navbar ul li:hover{
@@ -79,7 +79,7 @@ $color-bg: #dcdde1;
 		height: auto;
 		align-items: center;
 		text-align: center;
-		transition: 0.3s left ease;
+		transition: 0.5s left ease;
 	}
 
 	.navbar ul li{
